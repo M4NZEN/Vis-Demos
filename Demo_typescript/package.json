@@ -1,0 +1,12 @@
+{
+  "name": "demo_typescript",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0"
+  }
+}
