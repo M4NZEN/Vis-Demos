@@ -14,7 +14,8 @@ const edges = new vis.DataSet([
   { from: 1, to: 2 },
   { from: 2, to: 4 },
   { from: 2, to: 5 },
-  { from: 3, to: 2 }
+  { from: 3, to: 2 },
+  { from: 3, to: 6 },
 ]);
 
 const container = document.getElementById("mynetwork");
@@ -33,11 +34,6 @@ const options = {
   },
   physics: {
     stabilization: false, 
-    barnesHut: {
-      gravitationalConstant: -8000,
-    },
-    minVelocity: 0.1,
-    solver: 'barnesHut'
   }
 };
 
