@@ -1,0 +1,22 @@
+/* Tema dark minimalista */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* fondo global */
+  color: #cccccc; /* texto sutil */
+  font-family: "Segoe UI", Roboto, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mynetwork {
+  width: 90vw;
+  height: 90vh;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  background-color: #1a1a1a; /* fondo del grafo */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}

@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "esbuild src/main.ts --bundle --outfile=dist/main.js --platform=browser --format=esm --sourcemap",
+    "watch": "esbuild src/main.ts --bundle --outfile=dist/main.js --platform=browser --format=esm --sourcemap --watch"
   },
   "devDependencies": {
+    "esbuild": "^0.24.0",
     "typescript": "^5.1.0"
   }
 }
